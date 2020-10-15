@@ -31,5 +31,5 @@ jobs:
       - name: installing surge
         run: npm install --global surge
       - name: deploying using surge
-        run: surge ./ Bootcamo-2020-Sampel2.surge.sh --token {{ Surge_Token }}
+        run: surge ./ Bootcamo-2020-Sampel2.surge.sh --token {{ SURGE_TOKEN }}
          
